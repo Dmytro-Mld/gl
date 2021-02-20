@@ -22,6 +22,6 @@ class TestListMethods(unittest.TestCase):
     def test_dmytro_moldovan_(self):
         self.assertEqual(len([]), 0)
 
-        
+
 if __name__ == '__main__':
     unittest.main()
