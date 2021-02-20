@@ -13,13 +13,12 @@ class TestListMethods(unittest.TestCase):
         t.clear()
         self.assertEqual(len(t), 0)
 
-
     def test_illia_kripaka_fi_94_2(self):
         self.assertEqual(2*[1, 3, 5], [1, 3, 5, 1, 3, 5])
-    
+
     def test_dmytro_moldovan_(self):
-    	self.assertEqual(len([]), 0)
+        self.assertEqual(len([]), 0)
 
-
+        
 if __name__ == '__main__':
     unittest.main()
